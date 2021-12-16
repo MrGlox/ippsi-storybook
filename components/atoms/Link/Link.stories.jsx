@@ -5,7 +5,7 @@ export default {
   component: Link,
 };
 
-const Template = (args) => <Link {...args} />;
+const Template = (args) => <Link href="#" {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {

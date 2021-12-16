@@ -1,8 +1,6 @@
-import { Link } from "next";
-
 import styled from "styled-components";
 
-const StyledLink = styled(Link)``;
+const StyledLink = styled.a``;
 
 export const Link = ({ label, ...props }) => (
   <StyledLink {...props}>{label}</StyledLink>
